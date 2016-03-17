@@ -1,0 +1,3 @@
+GiftId	GiftName	Description	ItemCount	ItemId0	ItemNum0	ItemId1	ItemNum1	ItemId2	ItemNum2
+1	大礼包1	超值大礼包1	3	101	40000	102	200	35105	1
+2	大礼包2	超值大礼包2	3	101	80000	102	200	35105	1

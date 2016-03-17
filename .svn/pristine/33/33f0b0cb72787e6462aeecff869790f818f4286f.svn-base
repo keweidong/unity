@@ -1,0 +1,38 @@
+story(1)
+{
+  onmessage("start")
+  {
+    wait(2000);
+    restarttimeout(1);
+    startcountdown(180);
+    updatecoefficient();
+	  publishgfxevent("ge_show_marsloading","ui");    
+  };
+  onmessage("userenterscene")
+  {
+    startcountdown(180);
+    updatecoefficient($0);
+  };
+  onmessage("userkilled")
+  {
+    pausescenelogic(1,true);
+	  publishgfxevent("ge_ko_animation","ui");
+    lockframe(0.1);
+    wait(3000);
+    lockframe(1.0);
+    objanimation(winuserid(),72);
+    objanimation(lostuserid(),73);
+    wait(3000);
+    missioncompleted(0);
+  };
+  onmessage("timeout",1)
+  {
+    lockframe(0.1);
+    wait(3000);
+    lockframe(1.0);
+    objanimation(winuserid(),72);
+    objanimation(lostuserid(),73);
+    wait(2000);
+    missioncompleted(0);
+  };
+};

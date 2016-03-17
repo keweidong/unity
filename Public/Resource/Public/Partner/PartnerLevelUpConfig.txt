@@ -1,0 +1,11 @@
+Id	Level	ItemCost	GoldCost	Rate	FailedDemote	PartnerRank
+#					是否失败降级	
+1	1	1	0	0.9	FALSE	白
+2	2	1	0	0.4	TRUE	绿
+3	3	1	0	0.3	TRUE	绿银鹰
+4	4	4	0	0.2	FALSE	蓝
+5	5	4	0	0.15	TRUE	蓝银鹰
+6	6	4	0	0.1	TRUE	蓝精英
+7	7	10	0	0.06	FALSE	紫
+8	8	10	0	0.04	TRUE	紫银鹰
+9	9				TRUE	紫精英

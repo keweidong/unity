@@ -1,0 +1,7 @@
+Number	IntervalTime	UnitId	SpeakerName	ImageLeftAtlas	ImageLeft	ImageRightAtlas	ImageRight	Words
+0	2	10002	席列	UI_AtlasDynamic/Dialog/npc2	xilie_chensi			异教徒如此行径，[\n]恐怕有诈。
+1	2	20001	player			UI_AtlasDynamic/Dialog/player	player_moren	都什么时候了，[\n]你还这么谨慎！
+2	2.5	10001	忽伦	UI_AtlasDynamic/Dialog/npc1	hulun_moren			我也觉得刚才那个军团长会信守战士的诺言。
+3	2.5	10001	忽伦	UI_AtlasDynamic/Dialog/npc1	hulun_moren			席列队长，[\n]你若不放心的话，我来殿后便是。
+4	1.5	10002	席列			UI_AtlasDynamic/Dialog/npc2	xilie_moren	也好……
+5	2.5	20001	player	UI_AtlasDynamic/Dialog/player	player_moren			别磨蹭了！[\n]遗迹恐怕已经朝不保夕了。

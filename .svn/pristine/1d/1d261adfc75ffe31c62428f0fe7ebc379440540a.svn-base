@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <network_threads>1</network_threads>
+  <listen_ip>0.0.0.0</listen_ip>
+  <listen_port>20000</listen_port>
+  <tick_interval>5000</tick_interval>
+</config>

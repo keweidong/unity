@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDB1B8F1-DA39-4A15-8054-EAC15D15C12F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ImpactSystem</RootNamespace>
+    <AssemblyName>ImpactSystem</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScriptFrameworkLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CSharpLibs\engine\ScriptFrameworkLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IImpactLogic.cs" />
+    <Compile Include="ImpactLogicManager.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_Heal.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_HitRecover.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_AppendDamage.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_BlockAndBeat.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_ChangeSkill.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_DamageImmunityShield.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_HitCriticalTrigger.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_IceArmor.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_Invincible.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_General.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_RefixDamage.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_StopImpact.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_SuperArmor.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_SuperArmorShield.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_Thorns.cs" />
+    <Compile Include="ImpactLogic\ImpactLogic_Undead.cs" />
+    <Compile Include="ImpactSystem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{288C0299-A184-4B54-9B13-783A0678B6CE}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameObjects\GameObjects.csproj">
+      <Project>{E280220B-7EDA-4274-B3D5-4E922D98CAAD}</Project>
+      <Name>GameObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

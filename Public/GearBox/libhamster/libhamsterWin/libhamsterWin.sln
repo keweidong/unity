@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libhamsterWin", "libhamsterWin.vcxproj", "{17D1F22C-CA7C-4600-9033-5B75855A8479}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestHamsterWin", "TestHamsterWin\TestHamsterWin.vcxproj", "{88419D41-1BDD-4D35-9A3E-0A7AD7B3971D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17D1F22C-CA7C-4600-9033-5B75855A8479} = {17D1F22C-CA7C-4600-9033-5B75855A8479}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D1F22C-CA7C-4600-9033-5B75855A8479}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17D1F22C-CA7C-4600-9033-5B75855A8479}.Debug|Win32.Build.0 = Debug|Win32
+		{17D1F22C-CA7C-4600-9033-5B75855A8479}.Release|Win32.ActiveCfg = Release|Win32
+		{17D1F22C-CA7C-4600-9033-5B75855A8479}.Release|Win32.Build.0 = Release|Win32
+		{88419D41-1BDD-4D35-9A3E-0A7AD7B3971D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88419D41-1BDD-4D35-9A3E-0A7AD7B3971D}.Debug|Win32.Build.0 = Debug|Win32
+		{88419D41-1BDD-4D35-9A3E-0A7AD7B3971D}.Release|Win32.ActiveCfg = Release|Win32
+		{88419D41-1BDD-4D35-9A3E-0A7AD7B3971D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

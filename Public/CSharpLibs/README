@@ -1,0 +1,4 @@
+place for very rare updated lib dlls which can't be reference by project
+1. mono dll
+2. platform dll(platform sdk dll, dfl_ipc.dll)
+3. 3rd-party dll

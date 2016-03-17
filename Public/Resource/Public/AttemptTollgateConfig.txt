@@ -1,0 +1,6 @@
+BossNum	Describe	DropOutMoney	MoneyProbality	MoneyFactor	DropOutItemNum	DropOutItemId_1	ItemProbality_1	ItemFactor_1	DropOutItemId_2	ItemProbality_2	ItemFactor_2
+1		100	1	0	2	846202	0.3	0.1	200001	0.04	
+2		100	1	0	2	846203	0.3	0.1	200001	0.04	
+3		100	1	0	2	846204	0.3	0.1	200001	0.04	
+4		100	1	0	2	846205	0.3	0.1	200001	0.04	
+5		100	1	0	2	846206	0.3	0.1	200001	0.04	

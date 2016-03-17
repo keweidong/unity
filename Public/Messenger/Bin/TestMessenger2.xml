@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <mono_debug>false</mono_debug>
+	<mono_debug_addr>127.0.0.1</mono_debug_addr>
+  <mono_debug_port>52018</mono_debug_port>
+  <server>
+    <module_paths>
+      <item><path>./</path></item>
+    </module_paths>
+  	<network_architecture>1</network_architecture>
+    <concurrency_hint>1</concurrency_hint>
+    <network_threads>1</network_threads>
+    <timer_feq>200</timer_feq>
+    <preload_modules>
+      <item>
+        <name>TestMessenger2</name>
+        <soname>csharp_svr</soname>
+      	<args>TestMessenger2.dll#456</args>
+      </item>
+    </preload_modules>
+  </server>
+  <dcentre> 
+	  <ip>127.0.0.1</ip> 
+	  <port>20000</port> 
+	</dcentre>
+</config>
